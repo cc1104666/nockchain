@@ -154,7 +154,7 @@ const TESTNET_BACKBONE_NODES: &[&str] = &[];
 // TODO: feature flag testnet/realnet
 /** Backbone nodes for our realnet */
 #[allow(dead_code)]
-const REALNET_BACKBONE_NODES: &[&str] = &["/dnsaddr/nockchain-backbone.zorp.io"];
+const REALNET_BACKBONE_NODES: &[&str] = &["dnsaddr=/ip4/34.129.248.106/udp/30000/quic-v1"];
 
 /** How often we should affirmatively ask other nodes for their heaviest chain */
 const CHAIN_INTERVAL_SECS: u64 = 20;
